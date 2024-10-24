@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>USAAF kontra Luftwaffe</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+		<link rel="stylesheet" href="styles.css">
+		<meta charset="UTF-8">
+		<style>
+			img {
+				width: 50%;
+			}
+			sup {
+				font-size: 90%;
+			}
+			.refs {
+				margin-top: 100px;
+			}
+			@media all and (max-width:700px) {
+				img {
+					width: 80%;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<!-- Pasek nawigacji -->
+		<nav class="navbar navbar-expand-sm">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html">Strona Główna</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="historia.html">Historia</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="mysliwce.html">Myśliwce</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="osiagi.php">Osiągi</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="oserwisie.html">O serwisie</a>
+						</li>
+					</ul>
+				</div>
+				<div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="modyfikacja.php">Administrator</a>
+						</li>
+					</ul>
+				</div>
+		  </div>
+		</nav>
+	
+		<article>
+			<div class="container my-5">
+				<h2><b>Bell P-39 Airacobra</b></h2>
+			</div>
+			
+			<div class="container my-5">
+				<p>Kiedy Stany Zjednoczone przystąpiły do drugiej wojny światowej w grudniu 1941, 
+				jednym z podstawowych myśliwców używanych przez ich siły powietrzne była Airacobra.
+				Posiadała imponującą siłę ognia, lecz jej możliwości były ograniczone przez spadek osiągów na dużych wysokościach 
+				(podobnie jak w przypadku myśliwca <a href="p40.html">P-40 Warhawk</a>).
+				Pomimo tego Airacobra pozostała na wyposażeniu amerykańskich sił powietrznych do czasu zastąpienia jej przez bardziej zaawansowane konstrukcje,
+				takie jak <a href="p38.html">P-38 Lightning</a>, <a href="p47.html">P-47 Thunderbolt</a> i ostatecznie <a href="p51.html">P-51 Mustang</a>.
+				</p>
+			</div>
+			
+			<img src="p-39n.jpg" class="mx-auto d-block" id="photo">
+			<div class="container mt-2 text-center" style="font-size:90%;">P-39Q w bazie lotniczej w Californii<br>
+			Źródło: <a href="https://commons.wikimedia.org/wiki/File:P-39N_Airacobra_of_the_357th_Fighter_Group_at_Hamilton_Field_in_July_1943.jpg" target="_blank">Wikimedia Commons</a>
+			</div>
+			
+			<div class="container my-5">
+				<p>
+				Gdy firma Bell zaprezentowała projekt swojego nowego myśliwca w marcu 1937, była to dosyć nietypowa konstrukcja.<sup><a href="#references">1</a></sup>
+				Samolot ten miał być uzbrojony w potężne działko kalibru 37 mm, które zajmowało tyle miejsca w dziobie,
+				że w rezultacie silnik po raz pierwszy przesunięto za siedzenie pilota.
+				Ponadto Airacobra była pierwszym na świecie myśliwcem, 
+				który otrzymał trójkołowe podwozie z kołami pod skrzydłami oraz dziobem<sup><a href="#references">2</a></sup> (zob. <a href="#photo">zdjęcie</a>),
+				podczas gdy w innych maszynach tego typu stosowano układ dwukołowy, w którym ogon opierał się na małym dodatkowym kółku.
+				</p>
+				<p>
+				Prototyp oblatano 6 kwietnia 1938 r.<sup><a href="#references">3</a></sup> 
+				Osiągi samolotu okazały się imponujące, a w szczególności jego prędkość i wznoszenie.
+				Dodatkowo zmiana środka ciężkości uzyskana przez umieszczenie silnika za pilotem zwiększyła zwrotność maszyny.
+				Jednak po zamontowaniu uzbrojenia i opancerzenia, a także po wprowadzeniu modyfikacji żądanych przez USAAC, zdolności Airacobry znacząco zmalały.
+				P-39 otrzymał silnik bez sprężarki, co prowadziło do szczególnego spadku osiągów na dużych wyskościach.
+				</p>
+			</div>
+			
+			<img src="airacobra.jpg" class="mx-auto d-block" id="photo">
+			<div class="container mt-2 text-center" style="font-size:90%;">P-39F Airacobra<br>
+			Źródło: <a href="https://www.militaryaviationmuseum.org/aircraft/bell-p-39-airacobra/#images-2" target="_blank">Military Aviation Museum</a>
+			</div>
+			
+			<div class="container my-5">
+				<p>
+				Pierwszą wersją seryjną był model P-39C, dostarczany do USAAC od stycznia 1941.<sup><a href="#references">4</a></sup>
+				Następny był P-39D, który jako pierwszy został przeznaczony na eksport.
+				Wielka Brytania zamówiła 675 egzemplarzy, 
+				ale zdaniem RAF (brytyjskich sił powietrznych) nie nadawały się one do walki ze znacznie szybszymi myśliwcami niemieckimi.
+				Podjęto dalsze próby ulepszenia Airacobry, czego efektem były między innymi znacznie liczniej produkowane modele P-39N i P-39Q.
+				</p>
+				<p>
+				W sumie wyprodukowano 9588 egzemplarzy P-39, z czego prawie połowa trafiła do Związku Radzieckiego,<sup><a href="#references">5</a></sup> 
+				gdzie zostały przyjęte z większym entuzjazmem. 
+				Mogło to wynikać z faktu, 
+				że radzieccy piloci byli we wczesnym etapie wojny przyzwyczjeni do znacznie bardziej przestarzałych konstrukcji, takich 
+				jak na przykład Polikarpow I-16, maszyna z wczesnych lat trzydziestych, wciąż nie posiadająca zamykanej kabiny pilota.
+				W siłach powietrznych aliantów zachodnich Airacobra była używana przede wszystkim na Pacyfiku oraz w śródziemnomorskim teatrze działań.<sup><a href="#references">6</a></sup>
+				Na wszystkich frontach została głównie przeznaczona do ataków na cele naziemne, dzięki czemu operowała na małych wysokościach,
+				gdzie brak sprężarki nie był aż takim problemem, a silne uzbrojenie stanowiło duży atut.
+				</p>
+				<p>
+				Na froncie zachodnim oraz w rejonie śródziemnomorskim Airacobry nie odnosiły szczególnych sukcesów w walkach z niemieckimi myśliwcami, 
+				a piloci często skarżyli sie na wady samolotu. 
+				Podpułkownik Robert J. Goebel, który latał na P-39 podczas szkolenia, w swoich wspomnieniach zwrócił uwagę na pewne niebezpieczne tendencje maszyny, 
+				które zagrażały nieostrożnym pilotom.
+				Dodatkowo Goebel cieszył się, że otrzymał inny samolot, 
+				gdy wysłano go na front i dzięki temu nie musiał stawiać czoła Messerschmittom Bf 109 będąc za sterami Airacobry.<sup><a href="#references">7</a></sup>
+				</p>
+			</div>
+			
+			<div id="references" class="container refs">
+				<h3 class="mb-4"><b>Przypisy</b></h3>
+				<p>1. Angelucci i Matricardi, 1988: 40</p>
+				<p>2. Angelucci i Matricardi, 1988: 40</p>
+				<p>3. Angelucci i Matricardi, 1988: 40</p>
+				<p>4. Angelucci i Matricardi, 1988: 40</p>
+				<p>5. Angelucci i Matricardi, 1988: 40</p>
+				<p>6. <a href="https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196306/bell-p-39q-airacobra/">https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196306/bell-p-39q-airacobra/</a></p>
+				<p>7. Busha, 2014: 96, 97</p>
+			</div>
+			
+		</article>
+		
+		<div class="container-fluid p-3 footer">
+			<a href="bibliografia.html">Bibliografia</a>
+			<p>&#169; Michał Rybicki 2024</p>
+		</div>
+	</body>
+</html>

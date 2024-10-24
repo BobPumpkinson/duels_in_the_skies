@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>USAAF kontra Luftwaffe</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+		<link rel="stylesheet" href="styles.css">
+		<meta charset="UTF-8">
+		<style>
+			img {
+				width: 50%;
+			}
+			sup {
+				font-size: 90%;
+			}
+			.refs {
+				margin-top: 100px;
+			}
+			@media all and (max-width:700px) {
+				img {
+					width: 80%;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<!-- Pasek nawigacji -->
+		<nav class="navbar navbar-expand-sm">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html">Strona Główna</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="historia.html">Historia</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="mysliwce.html">Myśliwce</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="osiagi.php">Osiągi</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="oserwisie.html">O serwisie</a>
+						</li>
+					</ul>
+				</div>
+				<div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="modyfikacja.php">Administrator</a>
+						</li>
+					</ul>
+				</div>
+		  </div>
+		</nav>
+	
+		<article>
+			<div class="container my-5">
+				<h2><b>Lockheed P-38 Lightning</b></h2>
+			</div>
+			
+			<div class="container my-5">
+				<p>
+				P-38 był głównym amerykańskim myśliwcem dalekiego zasięgu na Pacyfiku oraz w rejonie śródziemnomorskim. 
+				Dzięki dużemu zapasowi paliwa mógł eskortować bombowce nad Tunezję, 
+				a później Sycylię i Włochy w celu zniszczenia wrogich linii zaopatrzenia w przygotowaniu do alianckiej inwazji.<sup><a href="#references">1</a></sup>
+				Lightningów używano też podczas amerykańskich nalotów na Niemcy, 
+				dopóki nie zastąpił ich <a href="p51.html">P-51 Mustang</a>.
+				</p>
+			</div>
+			
+			<img src="p38.jpg" class="mx-auto d-block" id="photo">
+			<div class="container mt-2 text-center" style="font-size:90%;">Srebrny P-38 Lightning<br>
+			Źródło: <a href="https://commons.wikimedia.org/wiki/File:Lockheed_P-38_Lightning_10_(5918996767).jpg" target="_blank">Wikimedia Commons</a><br>
+			Autor: Tony Hisgett</div>
+			
+			<div class="container my-5">
+				<p>
+				Prototyp Lightninga oblatano 27 stycznia 1939 r. 
+				Była to bardzo nietypowa, dwusilnikowa konstrukcja w układzie dwubelkowym, 
+				gdzie silniki przechodziły w dwa odrębne ogony, połączone usterzeniem (zob. <a href="#photo">zdjęcie</a>). 
+				Ponadto samolot posiadał trójkołowe podwozie, podobnie jak w przypadku <a href="p39.html">Airacobry</a>. 
+				Lightning był większy i cięższy od innych myśliwców tego okresu, 
+				a do tego znacznie bardziej skomplikowany i drogi w produkcji.<sup><a href="#references">2</a></sup>
+				Mimo tego USAAC się nim zainteresował ze względu na imponujące osiągi. 
+				</p>
+				<p>
+				Najwcześniejszymi wersjami Lightninga były P-38 i P-38D, 
+				które zaczęto dostarczać siłom powietrznym w lipcu 1941 r.<sup><a href="#references">3</a></sup> 
+				Kolejny był P-38E, w którym wprowadzono szereg udoskonaleń, 
+				takich jak poprawa systemu hydraulicznego oraz zwiększenie ilości zabieranej amunicji. 
+				Był to również pierwszy model użyty bojowo na Pacyfiku.<sup><a href="#references">4</a></sup>
+				P-38F był bardzo podobny, choć z pewnymi modyfikacjami, takimi jak silnik o większej mocy. 
+				Od wersji P-38F-15 dodano im mechanizm pozwalający opuszczać klapy poniżej 400 km/h, co zwiększało zwrotność maszyny.<sup><a href="#references">5</a></sup> 
+				Kolejnym modelem był P-38G, w którym zwiększono udźwig bomb i zbiorników z paliwem oraz zamontowano lepszy silnik,
+				co polepszyło wznoszenie, a także zwiększyło prędkość maksymalną z 636 km/h do 644 km/h.<sup><a href="#references">6</a></sup>
+				</p>
+			</div>
+			
+			<img src="p38lightning.jpg" class="mx-auto d-block" id="photo">
+			<div class="container mt-2 text-center" style="font-size:90%;">P-38J Lightning<br>
+			Źródło: <a href="https://easyreadernews.com/a-most-elegant-killing-machine-lockheed-p-38-lightning/" target="_blank">Easy Reader News</a><br>
+			</div>
+			
+			<div class="container my-5">
+				<p>
+				Lightningi wzięły udział w alianckiej kampani przeciwko Niemcom w północnej Afryce, 
+				gdzie po lądowaniu w Maroku i Algierii 8 listopada 1942 r. siły amerykańskie i brytyjskie toczyły walki z siłami państw Osi o Tunezję. 
+				Zadaniem Lightningów było eskortowanie bombowców, 
+				które atakowały niemieckie linie zaopatrzenia w przygotowaniu do alianckich inwazji na Sycylię i Włochy.<sup><a href="#references">7</a></sup>
+				Początkowo problemem pilotów USAAF był ich brak doświadczenia w porównaniu z lotnikami Luftwaffe, 
+				których duża część uczestniczyła już wcześniej w walkach przeciwko siłom powietrznym Wielkiej Brytanii lub Związku Radzieckiego.<sup><a href="#references">8</a></sup> 
+				W rezultacie eskadry Lightningów ponosiły w rejonie śródziemnomorskim duże straty. 
+				Pomimo tego spełniły swoje zadanie, gdyż przyczyniły się do pokonania Niemców w Afryce i Włoszech.<sup><a href="#references">9</a></sup>
+				W mniejszych ilościach używano ich również do eskorty bombowców z Anglii nad Niemcy, dopóki na początku 1944 r. nie zastąpiły ich Mustangi.
+				</p>
+				<p>
+				P-38 miał podobną prędkość do większości myśliwców Luftwaffe, natomiast nie mógł dorównać im w ostrym nurkowaniu, 
+				ponieważ przy dużej prędkości groziło to urwaniem skrzydeł szybciej niż w przypadku maszyn niemieckich.<sup><a href="#references">10</a></sup>
+				Według amerykańskich pilotów Lightning był lepszy w skręcie od niemieckich myśliwców, 
+				choć nie zawsze mógł tę przewagę wykorzystać. 
+				Jak pisał pułkownik Royal D. Frey, P-38 był bardzo zwrotny, ale miał słabe tempo przechylenia, 
+				przez co wchodzenie w zakręty oraz zmiana kierunku skrętu zajmowała dużo czasu, 
+				dając przewagę samolotom Luftwaffe.<sup><a href="#references">11</a></sup>
+				Ten problem wyeliminowano dopiero w wersjach P-38L i J, które zaczęły pojawiać się w Europie w drugiej połowie 1944 r., 
+				kiedy misje eskortowe wykonywały już w większości Mustangi.<sup><a href="#references">12</a></sup>
+				</p>
+			</div>
+			
+			<div id="references" class="container refs">
+				<h3 class="mb-4"><b>Przypisy</b></h3>
+				<p>1. Young, 2023: 4</p>
+				<p>2. Young, 2023: 10</p>
+				<p>3. Young, 2023: 8</p>
+				<p>4. Young, 2023: 12</p>
+				<p>5. Young, 2023: 14</p>
+				<p>6. Young, 2023: 24</p>
+				<p>7. Young, 2023: 5</p>
+				<p>8. Young, 2023: 6</p>
+				<p>9. Young, 2023: 30-34</p>
+				<p>10. Young, 2023: 15</p>
+				<p>11. Young, 2023: 15-16</p>
+				<p>12. Young, 2023: 16, 78</p>
+			</div>
+			
+		</article>
+		
+		<div class="container-fluid p-3 footer">
+			<a href="bibliografia.html">Bibliografia</a>
+			<p>&#169; Michał Rybicki 2024</p>
+		</div>
+	</body>
+</html>

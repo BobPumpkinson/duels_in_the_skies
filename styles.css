@@ -1,0 +1,58 @@
+	body, html {
+		font-family: Georgia, "Bitstream Charter", "URW Bookman L", serif;
+	}
+	.navbar {
+		background-color: #333333;
+		min-height: 70px;
+		font-size: 130%;
+		margin: 0;
+		padding: 0;
+	}
+	.nav-link, .navbar-brand {
+		color: white !important;
+		padding: 20px;
+	}
+	.nav-link {
+		padding-left: 20px !important;
+		padding-right: 20px !important;
+	}
+	.navbar-toggler {
+		background-color: white;
+	}
+	li a:hover {
+		background-color: #1a1a1a;
+	}
+	.active {
+		background-color: #1a1a1a;
+	}
+	
+	article {
+		min-height: 100vh;
+		font-size: 110%;
+		position: relative;
+	}
+	.carousel-inner {
+		padding-bottom: 50%;
+	}
+	.carousel-item {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+	}
+	.carousel-item img {
+		height: 100%;
+		object-fit: cover;
+	}
+	
+	.footer {
+		color: white;
+		background-color: #333333;
+		min-height: 70px;
+		margin-top: 80px;
+	}
+	.footer a {
+		color: white;
+		text-decoration: none;
+	}

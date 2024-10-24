@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>USAAF kontra Luftwaffe</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+		<link rel="stylesheet" href="styles.css">
+		<meta charset="UTF-8">
+		<style>
+			img {
+				width: 50%;
+			}
+			sup {
+				font-size: 90%;
+			}
+			.refs {
+				margin-top: 100px;
+			}
+			@media all and (max-width:700px) {
+				img {
+					width: 80%;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<!-- Pasek nawigacji -->
+		<nav class="navbar navbar-expand-sm">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html">Strona Główna</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="historia.html">Historia</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="mysliwce.html">Myśliwce</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="osiagi.php">Osiągi</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="oserwisie.html">O serwisie</a>
+						</li>
+					</ul>
+				</div>
+				<div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="modyfikacja.php">Administrator</a>
+						</li>
+					</ul>
+				</div>
+		  </div>
+		</nav>
+	
+		<article>
+			<div class="container my-5">
+				<h2><b>Focke-Wulf Fw 190</b></h2>
+			</div>
+			
+			<div class="container my-5">
+				<p>
+				Focke-Wulf Fw 190 był jednym z dwóch głównym niemieckich myśliwców podczas drugiej wojny światowej. 
+				Powstał, aby wspomóc na froncie <a href="me109.html">Messerschmitta Bf 109</a>. 
+				Był to opancerzony i potężnie uzbrojony samolot, 
+				dzięki czemu dobrze nadawał się do walki z amerykańskimi ciężkimi bombowcami, 
+				a do tego zastosowano w nim bardziej nowoczesne rozwiązania technologiczne niż w przypadku Bf 109.
+				</p>
+			</div>
+			
+			<img src="fw190.jpg" class="mx-auto d-block" id="photo">
+			<div class="container mt-2 text-center" style="font-size:90%;">Focke-Wulf Fw 190A w locie<br>
+			Źródło: <a href="https://www.planepicture.com/warbird" target="_blank">The Plane Picture Company</a><br>
+			Autor: John Dibbs
+			</div>
+			
+			<div class="container my-5">
+				<p>
+				Pod koniec 1937 r. firma Focke-Wulf Flugzeugbau rozpoczęła 
+				pod przewodnictwem Kurta Tanka pracę nad nowym myśliwcem.<sup><a href="#references">1</a></sup> 
+				Chodziło o zaprojektowanie maszyny, która będzie mogła wesprzeć Messerschmitta Bf 109. 
+				Prototyp oblatano 1 czerwca 1939 r.<sup><a href="#references">2</a></sup>
+				Fw 190 miał duży silnik gwiazdowy, przez co był dość ciężkim samolotem pomimo swoich stosunkowo małych rozmiarów. 
+				Pod wieloma względami był bardziej zaawansowany od Messerschmitta. 
+				Jak zauważył pilot Ernst Schröder, Fw 190 dawał znacznie lepszą widoczność z kabiny, 
+				a klapy i trymery były sterowane elektrycznie w przeciwieństwie do Bf 109.<sup><a href="#references">3</a></sup>
+				Focke-Wulfy zostały po raz pierwszy użyte bojowo we wrześniu 1941 r. przeciwko brytyjskim Spitfire'om Mk V. 
+				Okazało się wtedy, że Fw 190 ma nad nimi przewagę pod prawie każdym względem poza zwrotnością.
+				Brytyjski RAF odzyskał przewagę dopiero po wprowadzeniu Spitfire'a Mk IX.<sup><a href="#references">4</a></sup>
+				</p>
+				<p>
+				Pierwszą i główną wersją Focke-Wulfa używaną podczas wojny był Fw 190A, 
+				który występował w różnych odmianach. 
+				W tych modelach stopniowo zwiększano uzbrojenie oraz ulepszano silnik samolotu. 
+				Fw 190A otrzymał 4 działka 20 mm i 2 karabiny maszynowe 7,92 mm lub 13 mm.<sup><a href="#references">5</a></sup>
+				Od 1943 r. Niemcy stanęły w obliczu amerykańskiej kampani bombowej. 
+				Zdaniem Luftwaffe Messerschmitty Bf 109 miały zbyt słabą broń do walki z ciężkimi bombowcami, 
+				więc do tych zadań przeznaczono dodatkowo Focke-Wulfy.
+				I tak już duże straty wśród załóg bombowych USAAF zwiększyły się jeszcze bardziej, 
+				dopóki zadań eskortowych nie przejęły <a href="p51.html">Mustangi</a>, 
+				które mogły towarzyszyć bombowcom przez całą drogę nad Niemcy i z powrotem.<sup><a href="#references">6</a></sup>
+				</p>
+			</div>
+			
+			<img src="fw190d9.avif" class="mx-auto d-block" id="photo">
+			<div class="container mt-2 text-center" style="font-size:90%;">Focke-Wulf Fw 190D-9<br>
+			Źródło: <a href="https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196261/focke-wulf-fw-190d-9/" target="_blank">National Museum of the United States Air Force</a><br>
+			</div>
+			
+			<div class="container my-5">
+				<p>
+				Fw 190A cierpiał na spadek osiągów powyżej 7000 m, 
+				przez co w kolejnych wersjach starano się wyeliminować ten problem. 
+				W ten sposób powstały wersje B, C i D.<sup><a href="#references">7</a></sup>
+				W sierpniu 1944 r. zaczął pojawiać się Fw 190D-9 z silnikiem rzędowym zamiast gwiazdowego. 
+				Ta nowa maszyna dorównywała osiągami najlepszym myśliwcom alianckim, 
+				ale ponieważ zbudowano ich tylko 700 egzemplarzy, 
+				nie mogła w żaden sposób przeciwdziałać olbrzymiej przewadze liczebnej USAAF.
+				Ostateczną wersją Focke-Wulfa miał być jeszcze lepszy Ta 152H, 
+				lecz od listopada 1944 r. do końca wojny Luftwaffe otrzymała ich tylko 150.
+				Poza tym powstały jeszcze modele F i G do zadań myśliwsko-bombowych, 
+				które miały zastąpić bombowce nurkujące Junkers Ju 87.<sup><a href="#references">8</a></sup>
+				</p>
+				<p>
+				Fw 190A mógł latać z prędkością około 647 km/h, 
+				a więc podobnie do <a href="p38.html">Lightninga</a>, 
+				natomiast wolniej od <a href="p47.html">Thunderbolta</a> czy <a href="p51.html">Mustanga</a>.<sup><a href="#references">9</a></sup>
+				Focke-Wulf ustępował zwrotnością amerykańskim maszynom, poza P-47, 
+				którego mógł pokonać w walce kołowej na małych prędkościach.<sup><a href="#references">10</a></sup>
+				Fw 190 miał za to świetne tempo przechylenia, co ułatwiało manewrowanie, 
+				a także szerokie podwozie, dzięki któremu lądowania były bezpieczniejsze.
+				W sumie wyprodukowano ponad 20000 Focke-Wulfów.<sup><a href="#references">11</a></sup>
+				</p>
+			</div>
+			
+			<div id="references" class="container refs">
+				<h3 class="mb-4"><b>Przypisy</b></h3>
+				<p>1. Bowman, 2007: 14</p>
+				<p>2. Bowman, 2007: 6</p>
+				<p>3. Bowman, 2008: 55, 56</p>
+				<p>4. Stout, 2012: 161</p>
+				<p>5. Bowman, 2007: 18</p>
+				<p>6. Bowman, 2007: 33</p>
+				<p>7. Bowman, 2007: 16</p>
+				<p>8. Bowman, 2007: 18</p>
+				<p>9. Bowman, 2007: 31</p>
+				<p>10. Stout, 2012: 163</p>
+				<p>11. Stout, 2012: 161</p>
+			</div>
+			
+		</article>
+		
+		<div class="container-fluid p-3 footer">
+			<a href="bibliografia.html">Bibliografia</a>
+			<p>&#169; Michał Rybicki 2024</p>
+		</div>
+	</body>
+</html>

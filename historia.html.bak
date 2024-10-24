@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>USAAF kontra Luftwaffe</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+		<link rel="stylesheet" href="styles.css">
+		<meta charset="UTF-8">
+		<style>
+			img {
+				width: 50%;
+			}
+			sup {
+				font-size: 90%;
+			}
+			.refs {
+				margin-top: 100px;
+			}
+			@media all and (max-width:700px) {
+				img {
+					width: 80%;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<!-- Pasek nawigacji -->
+		<nav class="navbar navbar-expand-lg">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html">Strona Główna</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link active" href="historia.html">Historia</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="mysliwce.html">Myśliwce</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="osiagi.php">Osiągi</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="oserwisie.html">O serwisie</a>
+						</li>
+					</ul>
+				</div>
+				<div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="modyfikacja.php">Administrator</a>
+						</li>
+					</ul>
+				</div>
+		  </div>
+		</nav>
+	
+		<article>
+			<div class="container my-5 text-center">
+				<h2><b>Historia</b></h2>
+			</div>
+			
+			<div class="container my-5">
+				<p>
+				Stany Zjednoczone przystąpiły do drugiej wojny światowej po japońskim ataku na bazę w Pearl Harbor 7 grudnia 1941 r. 
+				US Army Air Force (która do 20 czerwca 1941 r. nazywała się US Army Air Corps) 
+				była wtedy wyposażona w dwa główne samoloty myśliwskie: 
+				<a href="p39.html">P-39 Airacobra</a> i <a href="p40.html">P-40 Warhawk</a>.
+				Choć oba te modele ustępowały osiągami najbardziej zaawansowanym maszynom innych krajów, 
+				Airacobra i Warhawk musiały Amerykanom wystarczyć podczas pierwszych walk w Europie i rejonie śródziemnomorskim, 
+				dopóki nie stworzyli lepszych konstrukcji.<sup><a href="#references">1</a></sup>
+				</p>
+				<p>
+				8 listopada 1942 r. siły amerykańskie i brytyjskie dokonały inwazji na Maroko i Algierię, 
+				które były pod kontrolą francuskiego rządu Vichy.<sup><a href="#references">2</a></sup>
+				Po ich zajęciu nastąpiły walki o pozostającą w niemieckich rękach Tunezję. 
+				Kluczową rolę odegrał wtedy <a href="p38.html">P-38 Lightning</a>, 
+				którego daleki zasięg umożliwił Amerykanom eskortowanie bombowców nad cele niemieckie 
+				w Tunezji, Sardynii, Sycylli i Włoszech.
+				Z początku lotnicy USAAF-u ponosili tam duże straty z powodu braku doświadczenia. 
+				Tymczasem Luftwaffe miała już za sobą walki powietrzne w Europie,<sup><a href="#references">3</a></sup>
+				a część taktyki opracowała już podczas wojny domowej w Hiszpanii w latach 1936-39.<sup><a href="#references">4</a></sup>
+				Pomimo dużych strat Amerykanie z czasem wypracowali lepszą strategię działania przeciwko niemieckim myśliwcom, 
+				a także uzyskali przewagę liczebną. 
+				Dzięki eskorcie składającej się z Lightningów alianckie bombowce były w stanie niszczyć niemieckie linie zaopatrzeniowe, 
+				czego efektem było pokonanie Niemców w Tunezji, 
+				a potem również udane inwazje na Sycylię w lipcu i Włochy we wrześniu 1943 r.<sup><a href="#references">5</a></sup> 
+				Poza P-38 w walkach tych uczestniczyły też P-40, kupowane od Brytyjczyków
+				Spitfire'y oraz działające jako bombowce nurkujące <a href="a36.html">A-36 Apache</a>.<sup><a href="#references">6</a></sup>
+				</p>
+			</div>
+			
+			<div class="container my-5">
+				<p>
+				Tymczasem w Europie od 1942 r. USAAF rozpoczęła kampanię bombową przeciwko III Rzeszy.<sup><a href="#references">7</a></sup>
+				Amerykanie atakowali między innymi fabryki i instalacje wojskowe w celu zniszczenia niemieckiego przemysłu zbrojeniowego.
+				Jak się szybko okazało, pomimo dużej ilości strzelców pokładowych wyposażonych w karabiny maszynowe, 
+				nawet ciężkie bombowce potrzebowały eskorty myśliwskiej, 
+				żeby przetrwać ataki znacznie szybszych i zwinniejszych myśliwców Luftwaffe.<sup><a href="#references">8</a></sup>
+				Początkowo rolę tę pełnił <a href="p47.html">P-47 Thunderbolt</a>, 
+				jako że większość innych myśliwców alianckich nie miała wystarczająco dalekiego zasięgu. 
+				Z kolei P-38 miał doskonały zasięg, ale był potrzebny w dużach ilościach na Pacyfiku.<sup><a href="#references">9</a></sup>
+				Z początku i tu dawał się we znaki brak doświadczenia pilotów P-47, 
+				ale po dopracowaniu taktyk udało im się zadać Luftwaffe duże straty.<sup><a href="#references">10</a></sup>
+				</p>
+				<p>
+				Jednak Thunderbolt wziąż nie mógł eskortować bombowców wystarczająco daleko, 
+				by alianci mogli niszczyć cele znajdujące się głęboko w Niemczech. 
+				Przez to straty wśród amerykańskich grup bombowych pod koniec 1943 r. sięgnęły aż 18,3% wysyłanych jednostek.<sup><a href="#references">11</a></sup>
+				Było to spowodowane m.in. tym, 
+				że do odpierania nalotów bombowych Luftwaffe wyznaczyło więcej ciężko uzbrojonych <a href="fw190.html">Focke-Wulfów Fw 190</a>, 
+				aby wspomagały <a href="me109.html">Messerchmitty Bf 109</a>.
+				Problem ten został rozwiązany dopiero po wprowadzeniu myśliwca <a href="p51.html">P-51 Mustang</a> od grudnia 1943 r.
+				Miał on nie tylko olbrzymi zasięg, dzięki któremu mógł latać z Anglii nad właściwie dowolny cel niemiecki, 
+				ale także posiadał osiągi pod wieloma względami przekraczające możliwości samolotów Luftwaffe.<sup><a href="#references">12</a></sup>
+				Do tego piloci P-51 byli dobrze wyszkoleni, a niektórzy z nich latali już wcześniej na innych maszynach. 
+				Tymczasem Niemcy po tak długim czasie stracili już dużą część swoich najlepszych pilotów 
+				i próbowali zapełnić powstałe luki w kadrze nowymi lotnikami o minimalnym wyszkoleniu.<sup><a href="#references">13</a></sup>
+				W efekcie Mustangi, a także pozostałe amerykańskie samoloty oraz eskortowane przez nich bombowce 
+				doprowadziły do ostatecznego zniszczenia Luftwaffe,<sup><a href="#references">14</a></sup> 
+				umożliwiając tym samym aliantom przeprowadzenie lądowania w Normandii 6 czerwca 1944 r.
+				Następnym krokiem była ofensywa w głąb Europy, dzięki której nazistowskie Niemcy upadły 8 maja 1945 r.
+				</p>
+			</div>
+			
+			<div id="references" class="container refs">
+				<h3 class="mb-4"><b>Przypisy</b></h3>
+				<p>1. Angelucci i Matricardi, 1988: 40</p>
+				<p>2. Young, 2023: 30</p>
+				<p>3. Young, 2023: 52</p>
+				<p>4. Young, 2023: 44</p>
+				<p>5. Young, 2023: 34</p>
+				<p>6. Young, 2023: 33</p>
+				<p>7. Bowman, 2007: 32</p>
+				<p>8. Bowman, 2007: 32, 33</p>
+				<p>9. Bowman, 2008: 4</p>
+				<p>10. Bowman, 2008: 62</p>
+				<p>11. Bowman, 2007: 33</p>
+				<p>12. Bowman, 2007: 14</p>
+				<p>13. Bowman, 2007: 68</p>
+				<p>14. Bowman, 2007: 38</p>
+			</div>
+		</article>
+		
+		<div class="container-fluid p-3 footer">
+			<a href="bibliografia.html">Bibliografia</a>
+			<p>&#169; Michał Rybicki 2024</p>
+		</div>
+	</body>
+</html>

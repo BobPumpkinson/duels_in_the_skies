@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>USAAF kontra Luftwaffe</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+		<link rel="stylesheet" href="styles.css">
+		<meta charset="UTF-8">
+		<style>
+			img {
+				width: 50%;
+			}
+			sup {
+				font-size: 90%;
+			}
+			.refs {
+				margin-top: 100px;
+			}
+			@media all and (max-width:700px) {
+				img {
+					width: 80%;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<!-- Pasek nawigacji -->
+		<nav class="navbar navbar-expand-sm">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html">Strona Główna</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="historia.html">Historia</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="mysliwce.html">Myśliwce</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="osiagi.php">Osiągi</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="oserwisie.html">O serwisie</a>
+						</li>
+					</ul>
+				</div>
+				<div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="modyfikacja.php">Administrator</a>
+						</li>
+					</ul>
+				</div>
+		  </div>
+		</nav>
+	
+		<article>
+			<div class="container my-5">
+				<h2><b>Republic P-47 Thunderbolt</b></h2>
+			</div>
+			
+			<div class="container my-5">
+				<p>
+				P-47 Thunderbolt był podstawowym amerykańskim myśliwcem eskortowym w Europie podczas alianckiej kampanii bombowej w 1943 r. 
+				Od 1944 r. zastąpił go <a href="p51.html">P-51 Mustang</a> ze względu na swój większy zasięg.<sup><a href="#references">1</a></sup>
+				Thunderbolt został wtedy przeznaczony do ataku na cele naziemne, 
+				w czym pomagało mu jego imponujące opancerzenie oraz uzbrojenie.<sup><a href="#references">2</a></sup>
+				</p>
+			</div>
+			
+			<img src="p47.jpg" class="mx-auto d-block" id="photo">
+			<div class="container mt-2 text-center" style="font-size:90%;">P-47D Thunderbolt na pokazach lotniczych w Colorado Springs<br>
+			Źródło: <a href="https://www.coloradophotosource.com/project/photos-of-the-republic-p-47-thunderbolt-juggernaut-wwii-warbird/" target="_blank">Colorado Photo Source</a><br>
+			Autor: John Naschinski</div>
+			
+			<div class="container my-5">
+				<p>
+				Prototyp Thunderbolta oblatano 6 maja 1941 r. 
+				Była to duża konstrukcja, dwukrotnie cięższa od większości innych myśliwców tego okresu. 
+				Wyposażono go w potężny silnik gwiazdowy Pratt & Whitney o mocy 2000 koni mechanicznych, 
+				dzięki czemu prototyp osiągnął 663 km/h. 
+				Pierwszą wersją seryjną był P-47B, który pojawił się w amerykańskich jednostkach w czerwcu 1942 r.<sup><a href="#references">3</a></sup> 
+				Następny był P-47C, w którym przedłużono kadłub w celu poprawienia środka ciężkości, 
+				a także umożliwiono przenoszenie dodatkowego zbiornika z paliwem pod kadłubem. 
+				Były to pierwsze wersje Thunderbolta, 
+				które od lata 1943 r. eskortowały alianckie bombowce nad tereny zajęte przez III Rzeszę.<sup><a href="#references">4</a></sup>
+				</p>
+				<p>
+				P-47C był bardzo szybki na dużych wysokościach, ale poniżej 4600 m jego osiągi znacząco malały. 
+				Szczególnym problemem było powolne wznoszenie w porównaniu z myśliwcami Luftwaffe.<sup><a href="#references">5</a></sup>
+				Problemy te częściowo rozwiązano na początku 1944 r. w wersji P-47D, w której samolot otrzymał m.in. nowe, większe śmigło. 
+				Jeden z najsławniejszych pilotów amerykańskich, Porucznik Robert S. Johnson, napisał w swojej autobiografii, 
+				że dzięki tej modyfikacji już nigdy nie został prześcignięty we wznoszeniu 
+				przez Messerschmitta Bf 109 czy Focke-Wulfa Fw 190.<sup><a href="#references">6</a></sup>
+				P-47D miał prędkość maksymalną około 697 km/h, a od wersji P-47D-15 mógł przenosić pod skrzydłami dodatkowe zbiorniki z paliwem, 
+				które można było odczepić w locie w celu poprawienia osiągów maszyny, jeśli zostało się zaatakowanym. 
+				Była to też najczęściej produkowana wersja Thunderbolta. 
+				Począwszy od modelu P-47D-25 myśliwce te otrzymały owiewkę w kształcie kropli, co polepszyło widoczność z kabiny.<sup><a href="#references">7</a></sup>
+				</p>
+			</div>
+			
+			<img src="p-47.jpg" class="mx-auto d-block" id="photo">
+			<div class="container mt-2 text-center" style="font-size:90%;">P-47D Thunderbolt "Hun Hunter XVI"<br>
+			Źródło: <a href="https://aviationhistorymuseums.com/blog/2022/2/17/the-tennessee-museum-of-aviation-sevierville-tn" target="_blank">Tennessee Museum of Aviation</a><br>
+			</div>
+			
+			<div class="container my-5">
+				<p>
+				W połowie 1944 r. większość amerykańskich misji eskortowych wykonywały już myśliwce P-51 Mustang, 
+				które posiadały przewagę zasięgu nad Thunderboltami 
+				(nawet nad modelami P-47D z dużymi podczepianymi zbiornikami paliwa). 
+				Dlatego P-47 zostały przystosowane do innych działań, takich jak zadania myśliwsko-bombowe. 
+				Jesienią 1944 r. pojawił się P-47M, przeznaczony do zestrzeliwywania latających bomb V1. 
+				Te egzemplarze były szczególnie szybkie oraz posiadały hamulce aerodynamiczne do kontrolowania prędkości. 
+				Miały one jednak szereg problemów z silnikami, więc zbudowano ich tylko 130.<sup><a href="#references">8</a></sup>
+				Ostatnią wersją był P-47N, w którym zwiększono powierzchnię skrzydeł i lotek, 
+				poprawiając tym samym tempo przechylenia.<sup><a href="#references">9</a></sup>
+				</p>
+				<p>
+				Na wysokim pułapie Thunderbolt był szybszy od większości myśliwców Luftwaffe, a od wersji D mógł też dorównać im we wznoszeniu. 
+				Niemieckie maszyny były za to zwrotniejsze, choć P-47 mógł im dorównać na dużych prędkościach, 
+				gdzie, jak zauważył "Hub" Zemke, zwrotność i tempo przechylenia Thunderbolta rosły. 
+				Zemke chwalił również doskonałą prędkość nurkowania P-47, 
+				który pod tym względem znacznie przewyższał samoloty Luftwaffe.<sup><a href="#references">10</a></sup>
+				</p>
+			</div>
+			
+			<div id="references" class="container refs">
+				<h3 class="mb-4"><b>Przypisy</b></h3>
+				<p>1. Bowman, 2008: 41</p>
+				<p>2. Bowman, 2008: 39</p>
+				<p>3. Bowman, 2008: 10</p>
+				<p>4. Bowman, 2008: 22</p>
+				<p>5. Bowman, 2008: 58, 59</p>
+				<p>6. Bowman, 2008: 12, 13</p>
+				<p>7. Bowman, 2008: 14</p>
+				<p>8. Bowman, 2008: 15, 26</p>
+				<p>9. Bowman, 2008: 15</p>
+				<p>10. Bowman, 2008: 58, 59</p>
+			</div>
+			
+		</article>
+		
+		<div class="container-fluid p-3 footer">
+			<a href="bibliografia.html">Bibliografia</a>
+			<p>&#169; Michał Rybicki 2024</p>
+		</div>
+	</body>
+</html>
